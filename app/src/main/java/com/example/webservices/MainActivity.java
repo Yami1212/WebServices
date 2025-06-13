@@ -117,7 +117,7 @@ String url="http://172.16.1.12/services/login.php?u="+u+"&p="+p;
                                 e.printStackTrace();
                             }
                         }
-                        resultadoOro.append(lista.toString());
+                        resultadoOro.append(lista.toString()); //Prueba de ingreso
 
                     }
                 }, new Response.ErrorListener() {
