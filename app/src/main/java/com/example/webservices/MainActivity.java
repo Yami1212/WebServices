@@ -71,7 +71,7 @@ String url="http://172.16.1.12/services/login.php?u="+u+"&p="+p;
     RequestQueue servicio2= Volley.newRequestQueue(this);
         String u=e1.getText().toString();//HOLA
         String p=e2.getText().toString();
-        String url="http://10.29.179.188/backend_4951/index.php";
+        String url="http://10.29.179.187/backend_4951/index.php";
         StringRequest respuesta=new StringRequest(Request.Method.POST,
                 url,
                 new Response.Listener<String>() {
